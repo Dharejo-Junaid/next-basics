@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+  <img src="https://github.com/Dharejo-Junaid/next-basics/blob/main/next.png" alt="NEXT.JS Logo" width="300" />
+</p>
 
-## Getting Started
+# Next.js Basics
 
-First, run the development server:
+This repository is a collection of my practice work with Next.js, focusing on exploring the full potential of app-routing. It serves as a hands-on exploration following my transition from ReactJS to Next.js, aiming to master web development techniques.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Features
+
+- **Basic to Advanced Routing:** Demonstrates various routing strategies including normal, parallel, and nested routing within a Next.js application.
+- **Structured File System:** Utilizes a well-organized file structure with specific files for different purposes, including:
+  - `page.tsx`: Entry point for pages.
+  - `default.tsx`: Default layout components.
+  - `layout.tsx`: Layout definition for the app.
+  - `error.tsx`: Custom error handling components.
+  - `not-found.tsx`: Custom 404 page.
+  - `style.css` & `global-style.css`: CSS files for local and global styles.
+- **Dynamic Route Segments:** Incorporates dynamic routing with Next.js using special directory names like `[]`, `()`, and `@` to handle various routing patterns.
+
+## Learning Journey
+
+This repository marks a key milestone in my learning journey, delving into advanced Next.js features for optimized web development. It reflects my commitment to understanding the intricacies of app-routing and the practical implementation of theoretical concepts.
+
+## To explore this repository:
+
+1. Clone the repo to your local machine.
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+git clone https://github.com/Dharejo-Junaid/next-basics.git
+```
+2. Install dependencies.
+```
+npm install
+```
+3. Run the development server.
+```
+npm run dev
+```
+4. Navigate through the files to see different routing techniques in action.
